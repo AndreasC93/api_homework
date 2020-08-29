@@ -9,7 +9,7 @@ from MCForecastTools import MCSimulation
 
 %matplotlib inline
 
-#Code Summary:
+# Code Summary:
 the following code uses json to parse api data and call relevant data from it api for analysis. In this case we are running a financial analysis on a predetermined value of crypto and stocks/bonds. 
 variables representing relevant data are put into dataframes. the data is visualized using .plot
 then MCForcastTools is used to run the montecarlo simulation to see possible outcomes of the initial predetermined investment after 30 years. 
